@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 import firebase_admin
+from flask_cors import CORS
 from firebase_admin import credentials, auth, db
 from google.oauth2 import service_account
 import google.auth.transport.requests
@@ -16,6 +17,8 @@ app = Flask(
     template_folder="templates",
     static_folder="static"
 )
+
+CORS(app)
 
 # ---------------------------
 # Initialize Firebase Admin
