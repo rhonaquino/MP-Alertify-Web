@@ -1,13 +1,22 @@
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCNBFSdGEG-1932G67Zxd4re9IP3tU1XH4",
-  authDomain: "mp-alertify.firebaseapp.com",
-  databaseURL: "https://mp-alertify-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "mp-alertify",
-  storageBucket: "mp-alertify.firebasestorage.app",
-  messagingSenderId: "53548793070",
-  appId: "1:53548793070:web:573180d6bda9e5c25987ff",
-  measurementId: "G-QGHVZ61J6P"
+
+  apiKey: "AIzaSyC9xxOxrblkjM59EgeEjENJS01IGkzPvgQ",
+
+  authDomain: "mp-alertify-71f45.firebaseapp.com",
+
+  databaseURL: "https://mp-alertify-71f45-default-rtdb.asia-southeast1.firebasedatabase.app",
+
+  projectId: "mp-alertify-71f45",
+
+  storageBucket: "mp-alertify-71f45.firebasestorage.app",
+
+  messagingSenderId: "639263011122",
+
+  appId: "1:639263011122:web:621c72e25b070ce7a7e72b",
+
+  measurementId: "G-VLSLZZZTRY"
+
 };
 
 // Initialize Firebase
